@@ -5,7 +5,12 @@ import React, { Component } from 'react';
 class Card extends Component {
   render() {
     return (
-      <div ClassName= "github-profile">
+      <div className= "github-profile">
+        <img src="https://placehold.it/75" />
+          <div className="info">
+            <div className="name">Name Here...</div>
+            <div className="company">Company Here...</div>
+          </div>
       One GitHub Profile...
       </div>
     );
