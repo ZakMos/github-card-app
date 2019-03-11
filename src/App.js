@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './components/Card';
+import CardList from './components/CardList';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <p>Hello World</p>
-        <Card />
+        <CardList />
       </div>
     );
   }
