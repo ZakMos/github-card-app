@@ -8,6 +8,7 @@ class Form extends Component {
   	event.preventDefault();
     const resp = await axios.get(`https://api.github.com/users/${this.state.userName}`);
     this.props.onSubmit(resp.data);
+    // هنا نعيد تصفير ـ أو ريست للعنصر أو للإنبوت لكي يحذف ما قبله ويرجع لحالته الأصلية
     this.setState({ userName: '' });
   };
   render() {

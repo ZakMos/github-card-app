@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 import CardList from './components/CardList';
 import Form from './components/Form';
-
 import './App.css';
 
-
-
 class App extends Component {
-
     state ={
       profiles:[],
     };
@@ -16,9 +12,6 @@ class App extends Component {
      	profiles: [...prevState.profiles, profileData],
      }));
    };
-
-
-
    render() {
    	return (
      	<div>
